@@ -1,0 +1,12 @@
+[package]
+name = "init"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bcrypt = "0.13"
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+regex = "1.7.1"
+anyhow = "1.0.69"
